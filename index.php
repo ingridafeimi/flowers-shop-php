@@ -55,17 +55,7 @@ $flowers = mysqli_fetch_all($result, MYSQLI_ASSOC);
                     <div class="col-sm-12 col-md-4 col-lg-3">
                         <div class="card mb-5 border-0">
 
-                            <div style="position: relative" onmouseover="showDetails()" onmouseout="hideDetails()">
-
-                                <div class="d-flex justify-content-center align-items-center"
-                                     style="width: 100%; top: 0; bottom: 0; background: #D6285C; opacity: 0.7; position: absolute; visibility: hidden;"
-                                     id="flower-1">
-                                </div>
-
-
-                                <img src="<?= $flower["image"] ?>" class="card-img-top w-75">
-
-                            </div>
+                            <img src="<?= $flower["image"] ?> " class="card-img-top w-75">
 
                             <div class="card-body">
                                 <h5 class="card-title"><?= $flower["title"] ?></h5>
@@ -126,7 +116,7 @@ $flowers = mysqli_fetch_all($result, MYSQLI_ASSOC);
                     <div class="col-sm-12 col-md-6 text-center">
                         <h5 class="pb-2">Our flowers</h5>
                         <div class="links mb-3">
-                            <a class="nav-link m-0 p-0" href="show.php"><?= $flower["title"] ?></a>
+                            <a class="nav-link m-0 p-0" <?= $flower["title"] ?> href="show.php?id=<?= $flower["id"] ?>"</a>
                             <a class="nav-link m-0 p-0" href="show.php"></a>
                             <a class="nav-link m-0 p-0" href="show.php"></a>
                             <a class="nav-link m-0 p-0" href="show.php"></a>

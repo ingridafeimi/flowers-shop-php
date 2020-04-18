@@ -39,15 +39,19 @@ session_start();
             </div>
             <div class="col-sm-12 col-md-6">
                 <h4 class="mb-3">About</h4>
-                <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was
-                    born and I will give you a complete account of the system, and expound the actual teachings of the
-                    great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or
-                    avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue
-                    pleasure rationally encounter consequences that are extremely painful.</p>
+                <p>About us proudly serves the Rose area. We are family owned and operated. We are committed to offering
+                    only the finest floral arrangements and gifts, backed by service that is friendly and prompt.
+                    Because all of our customers are important, our professional staff is dedicated to making your
+                    experience a pleasant one. That is why we always go the extra mile to make your floral gift perfect.
+                    Let be your first choice for flowers.</p>
 
-                <p>Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is
-                    pain, but because occasionally circumstances occur in which toil and pain can procure him some great
-                    pleasure.</p>
+                <p>Our shop is open from 9:00 a.m. to 5:00 p.m., Monday through Friday and from 9:00 a.m. to 2:00 p.m.
+                    on Saturday. We will be available for funeral work only on Sundays. To help assure on-time delivery
+                    during the busy holiday season, place your order at least 1 day prior to the following major
+                    holidays: Thanksgiving Day, Christmas Day, New Year's Day, Valentine's Day, Easter, Administrative
+                    Professionals Week, Mother's Day, Memorial Day, Father's Day, Independence Day and Labor Day. Our
+                    shop will always be closed on the following holidays: Thanksgiving Day, Christmas Day, New Year's
+                    Day, Eastre, Mothers Day, Fathers Day, Independence Day and Labor Day.</p>
 
             </div>
 

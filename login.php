@@ -38,11 +38,16 @@ session_start();
                 <div class="card">
                     <div class="card-header">Login</div>
                     <div class="card-body">
+
                         <form class="mb-5" method="POST" action="http://localhost/rose/postLogin.php"
                               enctype="multipart/form-data">
                             <div class="form-group mb-4">
-                                <input type="email" class="form-control contact-input" placeholder="Email" name="email">
+                                <input type="email" class="form-control contact-input" placeholder="Email" name="email" id="input">
+
+                                <div id="box" class="border d-none"></div>
                             </div>
+
+
                             <div class="form-group mb-4">
                                 <input type="password" class="form-control contact-input" placeholder="Password" name="password">
                             </div>
@@ -106,4 +111,11 @@ session_start();
     </div>
 
 </footer>
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="script.js"></script>
+
+
+</body>
+</html>
 
